@@ -8,7 +8,7 @@ export function Cta3() {
     <section id="relume" className="relative px-[5%] py-16 md:py-24 lg:py-28">
       <div className="relative z-10 container">
         <div className="w-full max-w-lg">
-          <h2 className="mb-5 text-5xl font-bold text-text-alternative md:mb-6 md:text-7xl lg:text-8xl">
+          <h2 className="mb-5 text-5xl font-bold text-text-alternative md:mb-6 md:text-7xl lg:text-6xl">
             Get Your Grabbl App Today
           </h2>
           <p className="text-text-alternative md:text-md">

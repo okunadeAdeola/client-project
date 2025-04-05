@@ -113,19 +113,19 @@ export function Navbar2() {
           className="overflow-hidden px-[5%] text-center lg:flex lg:items-center lg:justify-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
           <a
-            href="#"
+            href="/merchant"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             Become a Merchant
           </a>
           <a
-            href="#"
+            href="/review"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             Reviews
           </a>
           <a
-            href="#"
+            href="/blog"
             className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
           >
             Blogs

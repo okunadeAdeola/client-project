@@ -5,6 +5,7 @@ import Merchant from './Pages/grabbl-merchants/index'
 import MerchantForm from './Pages/grabbl-merchant-form/index'
 import Blog from './Pages/blogs/index'
 import BlogPost from './Pages/blog-post/index'
+// import Review from './Pages/home/components/Testimonial18';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/merchant_form" element={<MerchantForm /> } />
           <Route path="/blog" element={<Blog /> } />
           <Route path="/blog_post" element={<BlogPost /> } />
+          {/* <Route path="/review" element={<Review />} /> */}
         </Routes>
       </Router>
     </>
