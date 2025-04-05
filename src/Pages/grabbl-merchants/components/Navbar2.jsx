@@ -41,7 +41,7 @@ export function Navbar2() {
   return (
     <section
       id="relume"
-      className="z-[999] flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
+      className="z-[999] flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-24 lg:px-[5%]"
     >
       <div className="mx-auto size-full lg:grid lg:grid-cols-[0.375fr_1fr_0.375fr] lg:items-center lg:justify-between lg:gap-4">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
@@ -53,7 +53,11 @@ export function Navbar2() {
           </a>
           <div className="flex items-center gap-4 lg:hidden">
             <div>
-              <Button className="w-full px-4 py-1" title="Download" size="sm">
+              <Button
+                className="w-full px-4 py-1 bg-black text-white hover:bg-gray-900 rounded-md"
+                title="Download"
+                size="sm"
+              >
                 Download
               </Button>
             </div>
@@ -138,7 +142,11 @@ export function Navbar2() {
           </a>
         </motion.div>
         <div className="hidden justify-self-end lg:block">
-          <Button className="px-6 py-2" title="Download" size="sm">
+          <Button
+            className="px-6 py-2 bg-black text-white hover:bg-gray-900 rounded-md"
+            title="Download"
+            size="sm"
+          >
             Download
           </Button>
         </div>
