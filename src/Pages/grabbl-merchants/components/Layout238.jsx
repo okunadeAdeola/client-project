@@ -33,7 +33,7 @@ export function Layout238() {
               inventory.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
+              <Button iconRight={<RxChevronRight />} variant="link" size="link"  className="flex items-center gap-2">
                 Learn More
               </Button>
             </div>
@@ -54,7 +54,7 @@ export function Layout238() {
               more in your pocket.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
+              <Button iconRight={<RxChevronRight />} variant="link" size="link"  className="flex items-center gap-2">
                 Sign Up
               </Button>
             </div>
@@ -76,7 +76,7 @@ export function Layout238() {
               services.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
+              <Button iconRight={<RxChevronRight />} variant="link" size="link"  className="flex items-center gap-2">
                 Join Now
               </Button>
             </div>
