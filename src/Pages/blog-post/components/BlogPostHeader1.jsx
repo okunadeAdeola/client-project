@@ -31,7 +31,7 @@ export function BlogPostHeader1() {
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="mb-8 text-5xl font-bold md:mb-10 md:text-7xl lg:mb-12 lg:text-8xl">
+          <h1 className="mb-8 text-5xl font-bold md:mb-10 md:text-7xl lg:mb-12 lg:text-5xl">
             The Future of Alcohol Delivery Apps
           </h1>
           <div className="flex w-full flex-col items-start justify-between sm:flex-row sm:items-end">

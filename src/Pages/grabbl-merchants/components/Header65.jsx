@@ -10,7 +10,7 @@ export function Header65() {
         <p className="mb-3 font-semibold text-text-alternative md:mb-4">
           Tagline
         </p>
-        <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl">
+        <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-6xl">
           Join Grabbl Merchants
         </h1>
         <p className="text-text-alternative md:text-md">
