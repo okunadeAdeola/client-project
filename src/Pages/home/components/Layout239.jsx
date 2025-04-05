@@ -12,7 +12,7 @@ export function Layout239() {
           <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
             <div className="w-full max-w-lg">
               <p className="mb-3 font-semibold md:mb-4">Tagline</p>
-              <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-6xl">
+              <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-4xl">
                 Discover the Ultimate Convenience in Shopping
               </h2>
               <p className="md:text-md">
@@ -31,7 +31,7 @@ export function Layout239() {
                   className="rounded-image"
                 />
               </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
+              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-3xl">
                 Intuitive and User-Friendly App Interface
               </h3>
               <p>
@@ -47,7 +47,7 @@ export function Layout239() {
                   className="rounded-image"
                 />
               </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
+              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-3xl">
                 Affordable Prices for Your Favorite Items
               </h3>
               <p>Save money while enjoying your favorite drinks and snacks.</p>
@@ -60,7 +60,7 @@ export function Layout239() {
                   className="rounded-image"
                 />
               </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
+              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-3xl">
                 Quick Delivery Options to Suit Your Needs
               </h3>
               <p>
@@ -69,12 +69,13 @@ export function Layout239() {
               </p>
             </div>
           </div>
-          <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-            <Button variant="secondary">Download</Button>
-            <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              Learn More
-            </Button>
-          </div>
+          <div className="mt-6 flex flex-col items-center gap-4 md:mt-8 md:flex-row md:justify-center md:gap-6">
+  <Button variant="secondary">Download</Button>
+  <Button iconRight={<RxChevronRight />} variant="link" size="link" className="flex items-center gap-2">
+    Learn More
+  </Button>
+</div>
+
         </div>
       </div>
     </section>

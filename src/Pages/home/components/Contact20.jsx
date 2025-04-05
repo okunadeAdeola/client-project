@@ -9,7 +9,7 @@ export function Contact20() {
       <div className="container">
         <div className="rb-12 mx-auto mb-12 flex max-w-lg flex-col justify-center text-center md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">Get in Touch</p>
-          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-5xl">
             Contact Us
           </h2>
           <p className="md:text-md">
@@ -21,7 +21,7 @@ export function Contact20() {
             <div className="mb-5 lg:mb-6">
               <BiEnvelope className="size-12" />
             </div>
-            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-4xl">
+            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-3xl">
               Email
             </h3>
             <p className="mb-5 md:mb-6">
@@ -35,7 +35,7 @@ export function Contact20() {
             <div className="mb-5 lg:mb-6">
               <BiPhone className="size-12" />
             </div>
-            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-4xl">
+            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-3xl">
               Phone
             </h3>
             <p className="mb-5 md:mb-6">Call us anytime at your convenience.</p>
@@ -47,7 +47,7 @@ export function Contact20() {
             <div className="mb-5 lg:mb-6">
               <BiMap className="size-12" />
             </div>
-            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-4xl">
+            <h3 className="mb-3 text-2xl leading-[1.4] font-bold md:text-3xl lg:mb-4 lg:text-3xl">
               Office
             </h3>
             <p className="mb-5 md:mb-6">Visit us for a chat or a demo.</p>
