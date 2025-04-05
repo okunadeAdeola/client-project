@@ -10,7 +10,7 @@ export function Layout238() {
       <div className="container">
         <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
           <div className="mx-auto w-full max-w-lg">
-            <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl">
+            <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-4xl">
               Seamless Onboarding: Get Started with Grabbl in Just a Few Clicks
             </h2>
           </div>

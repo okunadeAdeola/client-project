@@ -17,7 +17,7 @@ export function Contact9() {
         <div>
           <div className="mb-6 md:mb-8">
             <p className="mb-3 font-semibold md:mb-4">Join</p>
-            <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+            <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-6xl">
               Get Started
             </h2>
             <p className="md:text-md">

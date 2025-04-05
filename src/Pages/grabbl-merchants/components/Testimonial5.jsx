@@ -8,7 +8,7 @@ export function Testimonial5() {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="mb-12 w-full md:mb-18 lg:mb-20">
-          <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+          <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-6xl">
             Merchant Testimonials
           </h1>
           <p className="md:text-md">
